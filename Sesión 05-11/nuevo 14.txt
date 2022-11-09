@@ -1,0 +1,21 @@
+CREATE DATABASE moviles;
+
+USE moviles;
+
+	
+CREATE TABLE marcas(
+	id int PRIMARY key AUTO_INCREMENT,
+    codigo varchar(50),
+	nombre varchar(50),
+	descripcion varchar(200)
+);
+    
+CREATE TABLE productos(
+	codigo int PRIMARY key AUTO_INCREMENT,
+	nombre varchar(50),
+	valor_unitario double,
+	fecha_expedicion date,
+	fecha_vencimiento date,
+	marca_id int,
+    CONSTRAINT fk_productos_marcas_id FOREIGN key (marca_id) REFERENCES marcas(id)
+);

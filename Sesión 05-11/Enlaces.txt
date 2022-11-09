@@ -1,0 +1,12 @@
+Java 8/11/17
+https://www.oracle.com/co/java/technologies/javase/jdk11-archive-downloads.html
+
+Xampp
+https://www.apachefriends.org/es/download.html
+
+Opcional - 
+https://dev.mysql.com/downloads/windows/installer/8.0.html
+
+Spring Boot 
+https://spring.io/tools
+
